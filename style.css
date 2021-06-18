@@ -1,0 +1,142 @@
+/*
+style.css
+Last modified: 10/06/2021
+Author: Jack Gardner
+*/
+
+/*
+Body
+*/
+  
+body{
+    background: #1f1f1f;
+    font-family: 'Times New Roman';
+    color: white;
+    margin: 0;
+} 
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 18px;
+}
+
+div.phoneNo {
+  font-size: 25px;
+  color: #2196F3;
+}
+
+/* 
+Navagation
+*/
+
+.h1 {
+    float: left;
+    padding: 21px 21px;
+    font-size: 30px;
+}
+
+.img {
+    float: left;
+    width: 70; 
+    height: 70;
+    padding: 2.5px 2.5px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    padding: 21px 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.nav li a.active {
+    background-color: #2196F3;
+}
+
+ul.nav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.nav li.right, 
+  ul.nav li {float: none;}
+}
+
+/* 
+Content Divs
+*/
+
+.introbox {	
+	background-color:#1a1a1a;
+	color:white;
+	padding:20px;
+	margin:100px 25px 5px 25px;
+}
+
+.box {
+	background-color:#1a1a1a;
+	color:white;
+	padding:20px;
+	margin:15px 25px 20px 25px;
+}
+
+/* 
+Footer
+*/
+
+ul.footer {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+}
+
+ul.footer li a {
+    display: block;
+    color: white;
+    padding: 19px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rights {
+    float: center;
+    padding: 15px 0px;
+    font-size: 15px;
+}
